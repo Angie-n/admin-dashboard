@@ -200,7 +200,6 @@ header {
     grid-row: 2 / 3;
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 1fr 1fr;
 }
 
 #project h1 {
@@ -216,7 +215,7 @@ header {
 }
 
 #project-cards > div {
-    height: 150px;
+    height: 170px;
     border-left: var(--gold) 5px solid;
 }
 
@@ -238,9 +237,8 @@ header {
     margin-right: 10px;
 }
 
-#main-content > #announcement {
+#announcement {
     grid-column: 2 / 3;
-    grid-row: 1 / 2;
     margin-right: 15px;
 }
 
@@ -252,12 +250,28 @@ header {
     font-size: 1em;
 }
 
-#announcement-cards h2 {
+#announcement-cards h2, #trending-cards h2 {
     font-size: 1.3em;
 }
 
-#main-content > #trending {
+#trending {
     grid-column: 2 / 3;
-    grid-row: 2 / 3;
     margin-right: 15px;
+}
+
+#trending h2 {
+    padding: 0;
+    margin-bottom: 2px;
+}
+
+#trending-cards div {
+    display: flex;
+    margin: 5px;
+}
+
+#trending-cards div div {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
