@@ -240,6 +240,7 @@ header {
 #announcement {
     grid-column: 2 / 3;
     margin-right: 15px;
+    margin-bottom: 0px;
 }
 
 #announcement-cards {
@@ -252,6 +253,7 @@ header {
 
 #announcement-cards h2, #trending-cards h2 {
     font-size: 1.3em;
+    margin-bottom: 3px;
 }
 
 #trending {
@@ -261,12 +263,11 @@ header {
 
 #trending h2 {
     padding: 0;
-    margin-bottom: 2px;
 }
 
 #trending-cards div {
     display: flex;
-    margin: 5px;
+    margin: 7px;
 }
 
 #trending-cards div div {
